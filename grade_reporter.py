@@ -12,3 +12,7 @@ for score in scores:
     print(score, "C")
 else:
     print(score, "F")
+  if score >= 50:
+   passed = passed + 1
+  else:
+        fail = fail + 1
