@@ -2,6 +2,7 @@ scores = [72, 45, 90, 61, 38]
 
 passed = 0
 fail = 0
+total = 0
 
 for score in scores:
   if score >= 80:
@@ -16,5 +17,8 @@ else:
    passed = passed + 1
   else:
         fail = fail + 1
+  total = total + score
 print("Passed:", passed)
 print("Failed:", fail)
+average = total / 5
+print("Average:", round(average, 1))
