@@ -4,3 +4,5 @@ for score in scores:
     print(score, "A")
   elif score>= 70:
     print(score, "B")
+  elif score>= 50:
+    print(score, "C")
