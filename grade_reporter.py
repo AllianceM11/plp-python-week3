@@ -16,3 +16,5 @@ else:
    passed = passed + 1
   else:
         fail = fail + 1
+print("Passed:", passed)
+print("Failed:", fail)
